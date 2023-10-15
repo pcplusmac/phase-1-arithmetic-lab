@@ -11,6 +11,8 @@ if (multiply === num1 * num2) {
     console.log("the result is 62")
 };
 
+// declare a variable 'random' store the random number greater than 0
+let random = Math.floor(Math.random() * 100) + 1;
 
 function random () {
     let x = Math.floor(Math.random() * 100) + 1;
