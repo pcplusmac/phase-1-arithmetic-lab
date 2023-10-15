@@ -20,6 +20,9 @@ let random = Math.floor(Math.random() * 100) + 1;
 const mod = 4;
 num3%num4 === mod ? console.log ("yes") : console.log("  ... ");
 
+// Create a variable called max to store the number with biggest value. 
+const max = Math.max(1,2,6,18,20);
+
 function random () {
     let x = Math.floor(Math.random() * 100) + 1;
     return x;
