@@ -18,6 +18,7 @@ if (num3%num4 === mod) {
 
 const max = Math.max(1,2,4,6,8,20);
 
+random();
 
 // Create a function ' random' to simplize the process of generating the integers for this lab
 
@@ -25,7 +26,7 @@ function random () {
     // Because the purpose is to create the integer, so that we declare the variable as the number to be returned out.
     // as we know the result is to get '62', the random method genearting between 0 and 1, it is why need to multiply 100.  
     let x = Math.floor(Math.random() * 10)+ 1;
+    
+    console.log (`${x}, and ${max}`)
     return x;
-    // console.log (`$num`);
 }
-// console.log (random())
