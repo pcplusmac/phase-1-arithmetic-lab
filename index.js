@@ -1,32 +1,33 @@
 
 // Write your code here
-const multiply = 62;
-
+// declare numbers
 let num1 = random();
 let num2 = random();
 let num3 = random();
 let num4 = random();
 
+// declare multiple and assign expected value to it. 
+const multiply = 62;
+
 if (multiply === num1 * num2) {
-    console.log ("the result is 62")
+    console.log("the result is 62")
 };
 
-const mod = 4; 
-if (num3%num4 === mod) {
-    console.log("the reminder is 4")
-}
+// declare a variable 'random' store the random number greater than 0
+let random = Math.floor(Math.random() * 100) + 1;
 
-const max = Math.max(1,2,4,6,8,20);
+//Create a variable called mod .
+const mod = 4;
+num3%num4 === mod ? console.log ("yes") : console.log("  ... ");
 
-random();
-
-// Create a function ' random' to simplize the process of generating the integers for this lab
+// Create a variable called max to store the number with biggest value. 
+const max = Math.max(1,2,6,18,20);
 
 function random () {
     // Because the purpose is to create the integer, so that we declare the variable as the number to be returned out.
     // as we know the result is to get '62', the random method genearting between 0 and 1, it is why need to multiply 100.  
     let x = Math.floor(Math.random() * 10)+ 1;
-    
-    console.log (`${x}, and ${max}`)
     return x;
+    // console.log (`$num`);
 }
+// console.log (random())
